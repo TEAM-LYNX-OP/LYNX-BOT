@@ -15,7 +15,7 @@ A  advanced UserBot for Telegram Users. Based on Latest Telethon (1.21.1) and ma
 
 # Dᴇᴘʟᴏʏ:-
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/TEAM-LYNX-OP/LYNX-BOT)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new-app?template=https://github.com/TEAM-LYNX-OP/LYNX-BOT)
 
 ------------------------------------------------
 
