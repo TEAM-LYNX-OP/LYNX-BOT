@@ -4,19 +4,19 @@
 _get_repolink () {
     local regex
     regex='(https?)://github.com/.+/.+'
-    if [[ $MAFIA_REPO == "lynxbot" ]]
+    if [[ $LYNX_REPO == "LYNXBOT" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL1RFQU0tTFlOWC1PUC9MWU5YLVVTRVJCT1QvYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
-    elif [[ $MAFIA_REPO == "MAFIABOT" ]]
+    elif [[ $LYNX_REPO == "LYNXBOT" ]]
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL1RFQU0tTFlOWC1PUC9MWU5YLVVTRVJCT1QvYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
-    elif [[ $MAFIA_REPO =~ $regex ]]
+    elif [[ $LYNX_REPO =~ $regex ]]
     then
-        if [[ $MAFIA_REPO_BRANCH ]]
+        if [[ $LYNX_REPO_BRANCH ]]
         then
-            echo "${MAFIA_REPO}/archive/${MAFIA_REPO_BRANCH}.zip"
+            echo "${LYNX_REPO}/archive/${LYNX_REPO_BRANCH}.zip"
         else
-            echo "${MAFIA_REPO}/archive/master.zip"
+            echo "${LYNX_REPO}/archive/master.zip"
         fi
     else
         echo "aHR0cHM6Ly9naXRodWIuY29tL1RFQU0tTFlOWC1PUC9MWU5YLVVTRVJCT1QvYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
