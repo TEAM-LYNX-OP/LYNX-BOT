@@ -59,7 +59,7 @@ class Development(Var):
 
 ### Uɴɪʙᴏʀɢ Cᴏɴғɪɢʀɪᴜᴛɪᴏɴ
 
-The UniBorg Config is situated in `SuperBot/uniborgConfig.py`.
+The UniBorg Config is situated in `LynxBot/uniborgConfig.py`.
 
 **Heroku Configuration**
 Simply just leave the Config as it is.
