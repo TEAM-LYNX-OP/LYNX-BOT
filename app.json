@@ -1,6 +1,6 @@
 {
   "name": "𝚃𝙷𝙴 LYNX BOT",
-  "description": "The LYNX BOT made by @MoralBoy_xD special thanks to respective MafiaBot owner @H1M4N5HU0P. Join for updates related info @MafiaBot_Support",
+  "description": "The LYNX BOT made by @MoralBoy_xD special thanks to respective MafiaBot owner @H1M4N5HU0P. Join for updates related info @LynxBot_support",
   "logo": "https://te.legra.ph/file/05db5b237fb0a98d577bc.jpg",
     "keywords": [
     "telegram",
@@ -23,7 +23,7 @@
       "required": false
     },
     "ALIVE_NAME": {
-      "description": "Fill your Full name or Username like @H1M4N5HU0P. By default it is Mafia User",
+      "description": "Fill your Full name or Username like @MoralBoy_xD. By default it is Mafia User",
       "value": "@LynxBot_support",
       "required": false
     },
@@ -77,7 +77,7 @@
     },
     "LYNXBOT_LOGGER": {
       "description": "Create a private channel/group add rose then type /id in group.",
-      "value": "-1001174481876"
+      "value": "-1001653483526"
     },
     "STRING_SESSION": {
       "description": "Get this value by running @SessionStringGeneratorZBot ",
@@ -95,7 +95,7 @@
     },
     "TG_BOT_TOKEN_BF_HER": {
       "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the token of your bot. And Don't Forget To Turn on inline Mode on bot settings. Get it.",
-      "value": "8"
+      "value": ""
     },
     "TG_BOT_USER_NAME_BF_HER": {
       "description": "Needed for inline buttons maker. Make a bot at @BotFather and get the username of your bot",
